@@ -1,0 +1,25 @@
+import { writable } from "svelte/store";
+
+export const step = writable('format')
+export const backStep = writable('')
+export const nextStep = writable('')
+export const bottomButtons = writable([])
+export const movieResult = writable(undefined as any)
+export const linksByPlatform = writable(undefined as any)
+
+export const format = writable('')
+export const medium = writable('')
+export const title = writable('')
+export const year = writable('')
+export const image = writable('')
+export const imdbId = writable('')
+export const trailerLink = writable('')
+export const category = writable({ name: 'Any' })
+export const tags = writable([])
+export const availableOn = writable(undefined)
+export const colorization = writable('Color')
+export const catsHate = writable('Maybe')
+export const orionSeen = writable('Not Sure')
+export const ernestRating = writable('')
+
+export const spotifyResult = writable(undefined as any)
